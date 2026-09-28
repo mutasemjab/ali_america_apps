@@ -1,10 +1,10 @@
 name: LaEsperanza
 description: "La Esperanza"
 publish_to: 'none'
-version: 1.0.0+2
+version: 3.0.0+16
 
 environment:
-  sdk: ^3.11.4
+  sdk: ^3.10.7
 
 dependencies:
   flutter:
