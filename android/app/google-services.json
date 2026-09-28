@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "410637690337",
+    "project_id": "ali-america",
+    "storage_bucket": "ali-america.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410637690337:android:8758efff37dc7e5fa05ea0",
+        "android_client_info": {
+          "package_name": "com.esperanza.america"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpDyAe9VPt9i_jKgGkbnZ0GY8iM0ADpeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
