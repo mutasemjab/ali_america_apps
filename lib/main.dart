@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
+import 'firebase_options.dart';
 
 import 'app.dart';
 import 'core/di/injection_container.dart';
@@ -11,7 +12,9 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   try {
-    await Firebase.initializeApp();
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
     // Must be registered before runApp, at top level, so it works even if
     // the app process was killed and a push wakes it back up.
     FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
