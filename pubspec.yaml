@@ -1,7 +1,7 @@
 name: LaEsperanza
 description: "La Esperanza"
 publish_to: 'none'
-version: 5.0.0+31
+version: 6.0.0+32
 
 environment:
   sdk: ^3.10.7
